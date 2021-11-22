@@ -1,4 +1,5 @@
 const Courses=require('../models/courses')
+const validationHandler=require('../validations/validationHandler')
 
 exports.index= async (req, res, next)=>{
     try{               
@@ -19,7 +20,9 @@ exports.show= async (req, res, next)=>{
 }
 
 exports.store=async(req, res,next)=>{
-    try{                
+    try{               
+        validationHandler(req);
+
         let course=new Courses();
         course.title=req.body.title;
         course.description=req.body.description;
@@ -34,6 +37,7 @@ exports.store=async(req, res,next)=>{
 }
 exports.update=async(req, res,next)=>{
     try{
+        validationHandler(req);
         
         let course= await Courses.findById(req.params.id);
 
