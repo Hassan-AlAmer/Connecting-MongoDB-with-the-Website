@@ -1,0 +1,30 @@
+{
+  "name": "connecting-mongodb-with-the-website",
+  "version": "1.0.0",
+  "description": "Connecting MongoDB with the Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hassan-AlAmer/Connecting-MongoDB-with-the-Website.git"
+  },
+  "author": "Hassan AlAmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hassan-AlAmer/Connecting-MongoDB-with-the-Website/issues"
+  },
+  "homepage": "https://github.com/Hassan-AlAmer/Connecting-MongoDB-with-the-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+    "express-validator": "^6.13.0",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
