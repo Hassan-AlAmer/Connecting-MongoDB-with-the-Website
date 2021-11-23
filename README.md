@@ -26,3 +26,9 @@ In this sprint, the scrum team has agreed to develop the backend functionality o
 - The submission of your GitHub repository link is mandatory. In order to track your task, you need to share the link of the repository in the document.
 
 - The step-by-step process involved in completing this task should be documented.
+
+## Project Screenshot:
+![create](https://user-images.githubusercontent.com/92730894/143066180-80aa6965-76b2-498c-8c4d-f9145a387f00.PNG)
+![get courses](https://user-images.githubusercontent.com/92730894/143066187-1a921e3e-5d8f-41e8-9b65-cfdd10fbfb7a.PNG)
+![delete](https://user-images.githubusercontent.com/92730894/143066185-ead1ba0a-73bd-4f8b-9a04-98d172d18a94.PNG)
+![update](https://user-images.githubusercontent.com/92730894/143066188-c67eb437-f827-4fdf-8315-7d29c4194093.PNG)
